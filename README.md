@@ -1,2 +1,2 @@
 # jquery-firefox-ajax-bug
-bug sample
+Minimal program to show jQuery AJAX request failing on Firefox

@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "version": "0.9.0.0",
+    "name": "firefox jquery ajax sample",
+    "description": "Demonstration of Ajax call failing in Firefox",
+
+    "icons": {
+	"16": "bug.png"
+    },
+    "browser_action":
+    {
+	"default_icon": "bug.png"
+    },
+    "permissions": [
+	"webRequest",
+	"http://www.example.com/*",
+	"<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+		"http://www.example.com/*"
+            ],
+            "js": [
+		"sample.js",
+		"jquery-3.6.0.min.js"
+            ]
+	}
+    ]
+}
+
+
+
+
