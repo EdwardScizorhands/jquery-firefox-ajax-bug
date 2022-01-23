@@ -1,4 +1,5 @@
 
+console.log(1);
 function do_stuff() {
     console.log("before");
     
@@ -15,4 +16,8 @@ function do_stuff() {
     console.log("after");
 }
 
+console.log(2);
 setTimeout(do_stuff, 1000);
+console.log(3);
+
+	   
